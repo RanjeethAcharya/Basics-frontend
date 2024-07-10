@@ -4,9 +4,31 @@
 
         </title>
 
+        <link rel="stylesheet" href="learnCss.css">
 
         <!-- favicon  -->
         <link rel="icon" type="image" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvectorified.com%2Fimages%2Fhtml-logo-icon-27.png&f=1&nofb=1&ipt=4ba5ab21ba592ef610b4244e28cf9f360766f0a40551ba6078d02ff793d72a85&ipo=images">
+
+        <style>
+            #internal{
+                background-color: gray;
+            }
+            #h1{
+                text-align: center;
+            }
+            #p1{
+                color: whitesmoke;
+            }
+            #p2{
+                color: rgb(251, 101, 51);
+            }
+            #p3{
+                color: rgb(214, 238, 108);
+            }
+            #p4{
+                color: rgb(91, 21, 253);
+            }
+        </style>
 
     </head>
 
@@ -15,7 +37,43 @@
 
 
 
-    <body>
+    <body style="background-color: lightgray;">
+
+        <header style="background-color: whitesmoke; border-radius: 70px; padding-bottom: 25; padding-top: 1; ">
+            <h1 style="text-align: center;">Welcome to LearnHTML</h1>
+            <nav style="text-align: center;">
+                <a href="#home">HOME</a>
+                <a href="#menu">MENU</a>
+                <a href="#nvm">NVM</a>
+                <a href="#login">LOGIN</a>
+                <a href="https://www.google.com/">GOOGLE</a></li>
+            </nav>
+        </header>
+
+        <main>
+            <h3 style="padding-left: 70;">HTML</h3>
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvectorified.com%2Fimages%2Fhtml-logo-icon-27.png&f=1&nofb=1&ipt=4ba5ab21ba592ef610b4244e28cf9f360766f0a40551ba6078d02ff793d72a85&ipo=images" style="height: 200;">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab est voluptatum laborum fugit, dignissimos ipsam amet, hic repellat aspernatur consectetur fuga minima, ipsa culpa impedit architecto omnis autem obcaecati excepturi?</p>
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <hr>
         <!-- pre -->
         <section>      
             <h1 style="text-align: center;">lyrics</h1><hr>
@@ -128,7 +186,7 @@
         <!-- Description list -->
         
         <h1>Description list</h1>
-        <dl style="background-color: lightgreen; border: 2px solid;">
+        <dl style="background-color: whitesmoke; border: 2px solid;">
             <dt>Ansible</dt>
             <dd>Automates configuration management and application deployment.
                 Uses YAML-based playbooks for defining tasks and configurations.</dd>
@@ -148,7 +206,7 @@
 
         <h3>STORE OPENS</h3>
         <table border="5" style="background-color: black;">
-            <tr style="background-color: lightgreen;">
+            <tr style="background-color: whitesmoke;">
                 <th width="100">Monday</th>
                 <th width="100">Tuesday</th>
                 <th width="100">wednesday</th>
@@ -173,12 +231,12 @@
         <h1><b>Button creation</b></h1>
 
         <a href="https://www.google.com" target="_blank">
-            <button href="" style="font-size: 25px; font-style: italic; background-color: gray; border-radius: 25px;">Click me</button>
+            <button href="" style="font-size: 25px; font-style: italic; background-color: whitesmoke; border-radius: 25px;">Click me</button>
         </a><p>this will go to the next page</p><hr>
 
         <!--- Button Javascript --->
 
-        <button onclick="doSomething()" style="font-size: 25px; font-style: italic; background-color: gray; border-radius: 25px;">Click me</button>
+        <button onclick="doSomething()" style="font-size: 25px; font-style: italic; background-color: whitesmoke; border-radius: 25px;">Click me</button>
 
         <p id="hi">hii</p>
         <script>
@@ -246,7 +304,70 @@
             <br>
             <input type="submit">
             <input type="reset">
-        </form>
+        </form><hr><br>
+
+
+
+
+
+
+        <!--- INline, INternal and EXternal --->
+
+
+    <div style="background-color: black;"><br>
+    <h1 style="color: whitesmoke; text-align: center;">INline, INternal and EXternal</h1>
+    <h3 style="color: whitesmoke;">Inline style</h3>
+
+    <p style="color: whitesmoke;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus vero culpa error ducimus, non rem dicta quisquam quas tempore sapiente vitae asperiores voluptates quis corrupti obcaecati delectus recusandae pariatur.</p>
+    <p style="color: whitesmoke;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus vero culpa error ducimus, non rem dicta quisquam quas tempore sapiente vitae asperiores voluptates quis corrupti obcaecati delectus recusandae pariatur.</p>
+    <p style="color: whitesmoke;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus vero culpa error ducimus, non rem dicta quisquam quas tempore sapiente vitae asperiores voluptates quis corrupti obcaecati delectus recusandae pariatur.</p>
+    <p style="color: whitesmoke;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus vero culpa error ducimus, non rem dicta quisquam quas tempore sapiente vitae asperiores voluptates quis corrupti obcaecati delectus recusandae pariatur.</p>    <br>
+    </div><hr>
+
+
+    <div id="internal"><br>
+    <h1 id="h1">INline, INternal and EXternal</h1>
+    <h3>Internal Line </h3>
+    <p id="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus vero culpa error ducimus, non rem dicta quisquam quas tempore sapiente vitae asperiores voluptates quis corrupti obcaecati delectus recusandae pariatur.</p>
+    <p id="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus vero culpa error ducimus, non rem dicta quisquam quas tempore sapiente vitae asperiores voluptates quis corrupti obcaecati delectus recusandae pariatur.</p>
+    <p id="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus vero culpa error ducimus, non rem dicta quisquam quas tempore sapiente vitae asperiores voluptates quis corrupti obcaecati delectus recusandae pariatur.</p>
+    <p id="p4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus vero culpa error ducimus, non rem dicta quisquam quas tempore sapiente vitae asperiores voluptates quis corrupti obcaecati delectus recusandae pariatur.</p><br>
+    </div><hr>
+
+    <div id="external"><br>
+    <h1 id="h2">INline, INternal and EXternal</h1>
+    <h3>External Line </h3>
+    <p id="p11" class="odd">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus vero culpa error ducimus, non rem dicta quisquam quas tempore sapiente vitae asperiores voluptates quis corrupti obcaecati delectus recusandae pariatur.</p>
+    <p id="p21" class="even">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus vero culpa error ducimus, non rem dicta quisquam quas tempore sapiente vitae asperiores voluptates quis corrupti obcaecati delectus recusandae pariatur.</p>
+    <p id="p31" class="odd">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus vero culpa error ducimus, non rem dicta quisquam quas tempore sapiente vitae asperiores voluptates quis corrupti obcaecati delectus recusandae pariatur.</p>
+    <p id="p41" class="even">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus vero culpa error ducimus, non rem dicta quisquam quas tempore sapiente vitae asperiores voluptates quis corrupti obcaecati delectus recusandae pariatur.</p><br>
+    </div><br><hr>
+
+    <!--- Shadow --->
+    <h1 id="lh">LearnHTML</h1>
+    <div id="box">learn shadow css</div><br><hr>
+
+    <!--- float --->
+
+    <h1 id="fl">FLOATING</h1>
+    <div id="BR">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fleganerd.com%2Fwp-content%2Fuploads%2F2016%2F04%2FSweet-Corn.jpg&f=1&nofb=1&ipt=312df42933d11d73f1478b7aece540a7aed2b9e5f4af7d99642b371ef2d1b9c9&ipo=images" height="150px" id="img">
+    
+    <p id="float">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor distinctio quo, delectus excepturi aspernatur fugit iusto sint autem quaerat cum eligendi nobis rem impedit, dolores nam dignissimos debitis quod? Iusto.</p>
+    <p id="float">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor distinctio quo, delectus excepturi aspernatur fugit iusto sint autem quaerat cum eligendi nobis rem impedit, dolores nam dignissimos debitis quod? Iusto.</p>
+
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.explicit.bing.net%2Fth%3Fid%3DOIP.oXiP5SaivKZjQonwUh_pFAHaEK%26pid%3DApi&f=1&ipt=d66b7e19efe320ac03ced01c0ed15db1ad21a20834949f556559a5a9961c7b35&ipo=images" height="150px" id="img1">
+
+    <p id="float">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor distinctio quo, delectus excepturi aspernatur fugit iusto sint autem quaerat cum eligendi nobis rem impedit, dolores nam dignissimos debitis quod? Iusto.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor distinctio quo, delectus excepturi aspernatur fugit iusto sint autem quaerat cum eligendi nobis rem impedit, dolores nam dignissimos debitis quod? Iusto.</p></div><br>
+    <hr>
+
+    <div id="of">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe consequuntur amet ab exercitationem at ipsa sed facilis odio, rem quis beatae, distinctio pariatur cumque nisi ex natus et nostrum! Libero.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt veritatis nam nulla obcaecati, impedit perspiciatis aspernatur fuga odit eos, hic molestiae, ad eaque magni nihil deserunt consectetur vero architecto provident.
+        </p>
+    </div>
+
 
 
 
@@ -264,7 +385,7 @@
 
 
        
-            
+        
         <br>
         <br>
         <br>
@@ -276,5 +397,10 @@
         <br>
         <br>
         <br>
+        <footer style="text-align: center;">
+            <hr>
+            Author HTML Learner<br>
+            <small><a href="mailto:learnhtml@fake.com">learnhtml@fake.com</a></small><hr>
+        </footer>
     </body>
 </html>

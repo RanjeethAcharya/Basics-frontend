@@ -1,0 +1,133 @@
+/* in css color have four ways to customise 
+color choose from css 
+rgb()
+hsl()
+hex format #
+*/
+
+#external{
+    /* border */
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgb(124, 124, 124);
+
+}
+#h2{
+    /* font */
+    font-family: verdana,arial;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-bottom: 25px solid bl;
+
+}
+
+h3{
+    margin-left: 40px;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.odd{
+    font-family: "lucida console";
+    /* font */
+    color: hsl(0, 100%, 55%);
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+.even{
+    color: #000000;
+}
+
+
+#p11{
+    border-bottom: 8px solid black;
+    border-top: 8px solid whitesmoke;
+    border-left: 8px solid whitesmoke;
+    border-right: 9px solid black;
+}
+
+#p21{
+    border-bottom: 8px solid black;
+    border-top: 8px solid whitesmoke;
+    border-left: 8px solid whitesmoke;
+    border-right: 9px solid black;
+}
+
+#p31{
+    border-bottom: 8px solid black;
+    border-top: 8px solid whitesmoke;
+    border-left: 8px solid whitesmoke;
+    border-right: 9px solid black;
+}
+
+#p41{
+    border-bottom: 8px solid black;
+    border-top: 8px solid whitesmoke;
+    border-left: 8px solid whitesmoke;
+    border-right: 9px solid black;
+}
+
+#lh{
+    font-family: lucida console;
+    text-shadow: 3px 3px 5px rgb(255, 0, 0), -3px -3px 5px rgb(35, 228, 246);
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 9px ;
+    text-align: center;
+}
+
+
+
+#img{
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+#img1{
+    float: right;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+#fl{
+    text-align: center;
+    font-family: lucida console;
+}
+
+
+#BR{
+    border: 05px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    display: flow-root; /* this will fix the overflow and set into the container */
+}
+
+#of{
+    /* overflow */
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
